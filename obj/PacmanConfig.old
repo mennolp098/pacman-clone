@@ -30,15 +30,15 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\src</path-element>
+      <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\pacman-clone\src</path-element>
       <path-element>D:\programmas\flash developer\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\lib\Library.swc</path-element>
+      <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\pacman-clone\lib\Library.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\src\Main.as</path-element>
+    <path-element>D:\programmas\xampp\htdocs\school\jaar2\periode 1\Pacman\pacman-clone\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#000000</default-background-color>
   <default-frame-rate>30</default-frame-rate>

@@ -12,6 +12,7 @@ package
 	{
 		private var _game:Game;
 		private var _mainMenu:MainMenu;
+		private var _mask:Mask;
 		public function Main():void 
 		{
 			if (stage) init();
@@ -23,7 +24,9 @@ package
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
 			_mainMenu = new MainMenu();
+			_mask = new Mask();
 			addChild(_mainMenu);
+			addChild(_mask);
 			_mainMenu.addEventListener("startgame", startgame);
 			//_game = new Game();
 			//addChild(_game);
